@@ -44,7 +44,6 @@ class DirHandler:
 
     @staticmethod
     def move_directory(old_dir, new_dir):
-        print("Moving folder to server")
         try:
             shutil.move(old_dir, new_dir)
         except OSError as e:
