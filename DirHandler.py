@@ -86,7 +86,7 @@ class DirHandler:
                 new_name = f"{order_name}-{counter:03d}.tif"
                 rename(path.join(target_dir, file), path.join(target_dir, new_name))
                 counter += 1
-            time.sleep(2)
+            time.sleep(0.10)
 
         print("Finished renaming files.")
 
