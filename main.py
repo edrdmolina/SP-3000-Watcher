@@ -13,13 +13,13 @@ MAC_LOCAL_TEMP_DIR = "/Users/edrdmolina/Desktop/TempTest"
 MAC_SERVER_TARGET_DIR = "/Users/edrdmolina/Desktop/TargetTest"
 
 # The path where the scanner exports to.
-initial_path = MAC_SERVER_INIT_DIR
+initial_path = UBUNTU_SERVER_INIT_DIR
 
 # Temporary directory where Ubuntu can rename directories and files on the local machine.
-temp_path = MAC_LOCAL_TEMP_DIR
+temp_path = UBUNTU_LOCAL_TEMP_DIR
 
 # the scannedimages folder where the weekly folders and scans reside.
-target_path = MAC_SERVER_TARGET_DIR
+target_path = UBUNTU_SERVER_TARGET_DIR
 
 is_run = True
 
