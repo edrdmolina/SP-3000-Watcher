@@ -37,5 +37,6 @@ if __name__ == "__main__":
 
         if run_again == "N":
             is_run = False
-
-        clear()
+        
+        # Canceled clearing to keep a log of rolls done
+        # clear()
