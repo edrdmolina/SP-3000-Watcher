@@ -31,6 +31,7 @@ class DirHandler:
 
         if found_dir:
             print(f"Found Roll No. {roll_number}")
+            time.sleep(10)
         else:
             print(f"No directory found with roll number: {roll_number}")
         return found_dir
